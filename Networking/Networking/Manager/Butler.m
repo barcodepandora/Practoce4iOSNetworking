@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Butler.h"
+@import Alamofire;
 
 @implementation Butler
 
