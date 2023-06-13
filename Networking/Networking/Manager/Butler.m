@@ -7,13 +7,15 @@
 
 #import <Foundation/Foundation.h>
 #import "Butler.h"
-@import Alamofire;
+#import "Networking-Swift.h"
+//@import Alamofire;
 
 @implementation Butler
 
 -(void)doARequest
 {
     NSLog(@"%@", @"networking at work");
+    [[[AlamofireSalesman alloc] init] request];
 }
 
 @end
