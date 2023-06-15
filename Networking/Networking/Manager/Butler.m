@@ -15,7 +15,7 @@
 -(void)doARequest
 {
     NSLog(@"%@", @"networking at work");
-    [[[AlamofireSalesman alloc] init] request];
+    [AlamofireSalesman request];
 }
 
 @end

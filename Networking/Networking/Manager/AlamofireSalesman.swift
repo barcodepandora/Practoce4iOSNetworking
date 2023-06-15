@@ -2,14 +2,18 @@
 //  AlamofireSalesman.swift
 //  Networking
 //
-//  Created by Juan Manuel Moreno on 13/06/23.
+//  Created by Juan Manuel Moreno on 15/06/23.
 //
 
 import Foundation
+import Alamofire
 
 class AlamofireSalesman: NSObject {
-    
-    @objc public func request() {
-        print("Hi Yes I am Swift")
+    @objc
+    class func request() {
+        AF.request("https://api.github.com/users/hadley/orgs")
+            .response { response in
+                print(response)
+            }
     }
 }

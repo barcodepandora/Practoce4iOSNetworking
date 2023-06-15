@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "Butler.h"
+#import "Quiz.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
     // Do any additional setup after loading the view.
     
     [[[Butler alloc] init] doARequest];
+    NSLog(@"%@", [[[Quiz alloc] init] answer:@"Juan" andQ2:@"Ma"]);
 }
 
 

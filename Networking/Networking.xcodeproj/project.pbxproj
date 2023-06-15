@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2E027DAF90AE9B44758C78C5 /* Pods_Networking_NetworkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC72704FE0A13506D2EEC10B /* Pods_Networking_NetworkingUITests.framework */; };
-		565D670E2A38DCB000810C5A /* AlamofireSalesman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565D670D2A38DCB000810C5A /* AlamofireSalesman.swift */; };
+		564768A62A3B645E000034DB /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 564768A52A3B645E000034DB /* Quiz.m */; };
+		564768AD2A3B6903000034DB /* AlamofireSalesman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564768AC2A3B6903000034DB /* AlamofireSalesman.swift */; };
 		569A326F2A37704800DE5380 /* Penance.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A326E2A37704800DE5380 /* Penance.m */; };
 		56A2C6A32A376D22002351BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A2C6A22A376D22002351BB /* AppDelegate.m */; };
 		56A2C6A62A376D22002351BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A2C6A52A376D22002351BB /* SceneDelegate.m */; };
 		56A2C6A92A376D22002351BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A2C6A82A376D22002351BB /* ViewController.m */; };
 		56A2C6AC2A376D22002351BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A2C6AA2A376D22002351BB /* Main.storyboard */; };
-		56A2C6AF2A376D22002351BB /* Networking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56A2C6AD2A376D22002351BB /* Networking.xcdatamodeld */; };
 		56A2C6B12A376D28002351BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A2C6B02A376D28002351BB /* Assets.xcassets */; };
 		56A2C6B42A376D28002351BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A2C6B22A376D28002351BB /* LaunchScreen.storyboard */; };
 		56A2C6B72A376D28002351BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A2C6B62A376D28002351BB /* main.m */; };
@@ -49,8 +49,10 @@
 		2743DA5A7B9F41D6EA91CB45 /* Pods-NetworkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkingTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkingTests/Pods-NetworkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D879CBA0A925F076E61B0EF /* Pods-NetworkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkingTests.release.xcconfig"; path = "Target Support Files/Pods-NetworkingTests/Pods-NetworkingTests.release.xcconfig"; sourceTree = "<group>"; };
 		53BD2CD03125E370884FCDFA /* Pods-Networking-NetworkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking-NetworkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Networking-NetworkingUITests/Pods-Networking-NetworkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		565D670C2A38DCAF00810C5A /* Networking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Networking-Bridging-Header.h"; sourceTree = "<group>"; };
-		565D670D2A38DCB000810C5A /* AlamofireSalesman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSalesman.swift; sourceTree = "<group>"; };
+		564768A42A3B6262000034DB /* Quiz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		564768A52A3B645E000034DB /* Quiz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		564768AB2A3B6902000034DB /* Networking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Networking-Bridging-Header.h"; sourceTree = "<group>"; };
+		564768AC2A3B6903000034DB /* AlamofireSalesman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSalesman.swift; sourceTree = "<group>"; };
 		569A326D2A37701500DE5380 /* Penance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Penance.h; sourceTree = "<group>"; };
 		569A326E2A37704800DE5380 /* Penance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penance.m; sourceTree = "<group>"; };
 		56A2C69E2A376D22002351BB /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +63,6 @@
 		56A2C6A72A376D22002351BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		56A2C6A82A376D22002351BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56A2C6AB2A376D22002351BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		56A2C6AE2A376D22002351BB /* Networking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Networking.xcdatamodel; sourceTree = "<group>"; };
 		56A2C6B02A376D28002351BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56A2C6B32A376D28002351BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56A2C6B52A376D28002351BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +118,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		564768A32A3B624E000034DB /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				564768A42A3B6262000034DB /* Quiz.h */,
+				564768A52A3B645E000034DB /* Quiz.m */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		56A2C6952A376D22002351BB = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		56A2C6A02A376D22002351BB /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				564768A32A3B624E000034DB /* Quiz */,
 				56A2C6D92A376DD6002351BB /* Manager */,
 				56A2C6A12A376D22002351BB /* AppDelegate.h */,
 				56A2C6A22A376D22002351BB /* AppDelegate.m */,
@@ -154,7 +165,6 @@
 				56A2C6B22A376D28002351BB /* LaunchScreen.storyboard */,
 				56A2C6B52A376D28002351BB /* Info.plist */,
 				56A2C6B62A376D28002351BB /* main.m */,
-				56A2C6AD2A376D22002351BB /* Networking.xcdatamodeld */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -183,8 +193,8 @@
 				56A2C6DB2A376E78002351BB /* Butler.m */,
 				569A326D2A37701500DE5380 /* Penance.h */,
 				569A326E2A37704800DE5380 /* Penance.m */,
-				565D670D2A38DCB000810C5A /* AlamofireSalesman.swift */,
-				565D670C2A38DCAF00810C5A /* Networking-Bridging-Header.h */,
+				564768AC2A3B6903000034DB /* AlamofireSalesman.swift */,
+				564768AB2A3B6902000034DB /* Networking-Bridging-Header.h */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -447,8 +457,8 @@
 				56A2C6A92A376D22002351BB /* ViewController.m in Sources */,
 				56A2C6A32A376D22002351BB /* AppDelegate.m in Sources */,
 				56A2C6A62A376D22002351BB /* SceneDelegate.m in Sources */,
-				565D670E2A38DCB000810C5A /* AlamofireSalesman.swift in Sources */,
-				56A2C6AF2A376D22002351BB /* Networking.xcdatamodeld in Sources */,
+				564768AD2A3B6903000034DB /* AlamofireSalesman.swift in Sources */,
+				564768A62A3B645E000034DB /* Quiz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,19 +805,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		56A2C6AD2A376D22002351BB /* Networking.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				56A2C6AE2A376D22002351BB /* Networking.xcdatamodel */,
-			);
-			currentVersion = 56A2C6AE2A376D22002351BB /* Networking.xcdatamodel */;
-			path = Networking.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 56A2C6962A376D22002351BB /* Project object */;
 }
